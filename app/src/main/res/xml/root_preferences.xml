@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Options">
+
+        <EditTextPreference
+            app:key="url"
+            app:title="Web URL"
+            app:defaultValue="https://adamskeegan.com/timeclock/index.cfm"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="userAgent"
+            app:title="User-Agent"
+            app:defaultValue="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.63"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="cookieName"
+            app:title="Cookie Name"
+            app:defaultValue="TCMAC"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="cookieValue"
+            app:title="Cookie Value"
+            app:defaultValue="8C:C8:4B:38:70:11"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="cookiePath"
+            app:title="Cookie Path"
+            app:defaultValue="/"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="ipAddress"
+            app:title="IP Address"
+            app:defaultValue=""
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
